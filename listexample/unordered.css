@@ -1,11 +1,20 @@
-ul{
-    background-color:red;
-    color:green;
+ul {
+    background-color: red;
+    color: green;
     width: 400px;
     border-radius: 20px;
     padding: 20px;
 }
-li{
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+li {
     margin: 5px;
     background-color: aqua;
     list-style-position: inside;
